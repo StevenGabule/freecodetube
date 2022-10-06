@@ -1,0 +1,27 @@
+html,
+body {
+    height: 100%;
+}
+
+main, .content-wrapper {
+    flex: 1;
+}
+
+aside {
+    width: 220px;
+}
+
+aside .nav-pills .nav-link {
+    border-radius: 0;
+    color: #444;
+}
+
+aside .nav-pills .nav-link:hover {
+    background: rgba(0, 0, 0, 0.05);
+}
+
+aside .nav-pills .nav-link.active {
+    background: rgba(0, 0, 0, .05);
+    color: #b90000;
+    border-left: 4px solid #b90000;
+}
